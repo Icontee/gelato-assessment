@@ -30,8 +30,7 @@ export default function Web3DApp() {
           <div>
             <label htmlFor="address" className="block text-sm font-medium text-gray-700">Contract Address</label>
             <Input
-              id="address"
-              type="text"
+              id="address"r
               placeholder="Enter contract address"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
